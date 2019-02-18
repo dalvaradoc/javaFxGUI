@@ -120,10 +120,10 @@ public class EjemploGUI extends Application {
 //        gridpane.add(direccion2, 0, 2, 1, 2); // (Columna 0, Fila 1)and colspan 1
 //        gridpane.add(txtDireccion2, 1, 2, 4, 2); // (Columna 0, Fila 1)and colspan 1
         
-        Scene scene = new Scene(gridpane);
-        primaryStage.setTitle("Titulo de la Ventana");
-        primaryStage.setScene(scene);
-        primaryStage.show();
+//        Scene scene = new Scene(gridpane);
+//        primaryStage.setTitle("Titulo de la Ventana");
+//        primaryStage.setScene(scene);
+//        primaryStage.show();
     }
     
     /**
