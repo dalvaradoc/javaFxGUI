@@ -20,6 +20,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -95,6 +96,34 @@ public class EjemploGUI extends Application {
 //        primaryStage.setTitle("Titulo de la Ventana");
 //        primaryStage.setScene(scene);
 //        primaryStage.show();
+
+
+//No funciono alv :'v
+//        GridPane gridpane = new GridPane();
+//        ColumnConstraints col1 = new ColumnConstraints();
+//        col1.setPercentWidth(20);
+//        ColumnConstraints col2 = new ColumnConstraints();
+//        col2.setPercentWidth(30);
+//        gridpane.getColumnConstraints().addAll(col1,col2,col2,col1);
+//        
+//        
+//        Label text = new Label("Enter Address");
+//        gridpane.add(text, 0, 0, 4, 0); // (Columna 0, Fila 0)and colspan 4
+//        GridPane.setHalignment(text, HPos.CENTER);
+//        Label direccion = new Label("Direccion");
+//        gridpane.add(direccion, 0, 1, 1, 1); // (Columna 0, Fila 1) and colspan 1
+//        GridPane.setHalignment(direccion, HPos.RIGHT);
+//        TextField txtDireccion = new TextField();
+//        gridpane.add(txtDireccion, 1, 1, 4, 1); // (Columna 0, Fila 1)and colspan 1
+//        Label direccion2 = new Label("Direccion");
+//        TextField txtDireccion2 = new TextField();
+//        gridpane.add(direccion2, 0, 2, 1, 2); // (Columna 0, Fila 1)and colspan 1
+//        gridpane.add(txtDireccion2, 1, 2, 4, 2); // (Columna 0, Fila 1)and colspan 1
+        
+        Scene scene = new Scene(gridpane);
+        primaryStage.setTitle("Titulo de la Ventana");
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
     
     /**
